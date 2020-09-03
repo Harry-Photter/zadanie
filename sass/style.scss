@@ -125,7 +125,7 @@ button {
 }
 
 .box {
-    padding: 0 15px;
+    padding: 25px 18px;
 }
 .box i {
     font-size: 28px;
@@ -152,7 +152,14 @@ h3 {
 
 .portfolio {
     background-color: #f7f7f7;
+    padding: 120px 0;
 }
+
+.portfolio > .container > .row {
+    flex-wrap: wrap;
+}
+
+
 
 .footer-text {
     margin: auto 0;
